@@ -1,0 +1,52 @@
+# ── Python / Django ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# Django
+*.log
+*.pot
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# ── Environment variables (NEVER commit secrets) ───────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── Node / React ──────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+build/
+.cache/
+
+# Vite
+*.local
+
+# ── Editor / OS ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Testing / Coverage ────────────────────────────────────────
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
